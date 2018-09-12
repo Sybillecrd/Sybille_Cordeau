@@ -1,12 +1,14 @@
 .card {
+  position: relative;
   background-color: white;
   padding: 10px;
   margin: 10px;
   border-radius: 3px;
-  height: 500px;
-  width: 300px;
+  max-height: 400px;
+  max-width: 550px;
   display: flex;
   justify-content: space-around;
+  flex-direction: column;
 
 }
 
@@ -16,5 +18,6 @@
 }
 
 .title {
-  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 10px;
 }
