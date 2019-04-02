@@ -1,80 +1,53 @@
-<div class="hero">
-  <div class="hero-content">
-    <h1>Sybille Cordeau</h1>
-    <br>
-    <p>Graphiste / Webdesigner</p>
-    <p>Freelance<p>
-  </div>
-  <div class="hero-portrait">
-    <%= image_tag("portrait1.png", class: "hero-img") %>
-  </div>
-
-</div>
-
-<div class="card card-deliveries">
-  <div class="title text-center"><h3>Prestations</h3></div>
-  <div class="first-delivery">
-    <div class="icon-delivery-1 ">
-      <i class="fa fa-lg fa-paint-brush"></i>
+<div class="container container-home">
+  <div class="row ">
+    <div class="hero">
+      <div class="hero-content">
+        <h1>Sybille Cordeau</h1>
+        <br>
+        <p>Graphiste / Webdesigner</p>
+        <p>Freelance<p>
+      </div>
+      <div class="hero-portrait">
+        <%= image_tag("portrait1.png", class: "hero-img") %>
+      </div>
     </div>
-
-    <p>Illustration</p>
-    <p>Adobe Photoshop, Illustrator, Indesign</p>
   </div>
 
-  <div class="second-delivery">
-    <i class="fa fa-paint-brush"></i>
-    <p>Identité visuelle</p>
-    <p>Logo, Charte Graphique, Typographie</p>
-  </div>
-
-</div>
-
-
-
-
-
-
-<div id="portfolio" class="title text-center">
-  <h3>Portfolio</h3>
-</div>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-6">
-        <div class="card">
-          <img class="card-img" src="images/Portfolio001.jpg">
-        </div>
+  <div class="row justify-content-center">
+    <div class="card card-deliveries">
+      <div class="title text-center">
+        <h3>Prestations</h3>
       </div>
-
-      <div class="col-xs-12 col-sm-6 col-md-6">
-        <div class="card">
-          <img class="card-img" src="images/Portfolio002.jpg">
+      <div class="card-deliveries-content">
+        <div class="card infos-delivery">
+          <%= image_tag("pen-icon.png", class: "icon-delivery") %>
+          <p>Illustration</p>
+          <p class="descriptif">Adobe Photoshop, Illustrator, Indesign</p>
         </div>
-      </div>
 
-      <div class="col-xs-12 col-sm-6 col-md-6">
-        <div class="card">
-          <img class="card-img" src="images/Portfolio003.jpg">
+        <div class="card infos-delivery">
+          <%= image_tag("typo-icon.png", class: "icon-delivery") %>
+          <p>Identité visuelle</p>
+          <p class="descriptif">Logo, Charte Graphique, Typographie</p>
         </div>
-      </div>
 
-      <div class="col-xs-12 col-sm-6 col-md-6">
-        <div class="card">
-          <img class="card-img" src="images/Portfolio004.jpg">
+        <div class="card infos-delivery">
+          <%= image_tag("responsive-icon.png", class: "icon-delivery") %>
+          <p>UI/UX</p>
+          <p class="descriptif">Sketch, Figma, Adobe XD, Axure</p>
         </div>
-      </div>
 
-      <div class="col-xs-12 col-sm-6 col-md-6">
-        <div class="card">
-          <img class="card-img" src="images/Portfolio006.jpg">
-        </div>
-      </div>
-
-      <div class="col-xs-12 col-sm-6 col-md-6">
-        <div class="card">
-          <img class="card-img" src="images/Portfolio007.jpg">
+        <div class="card  infos-delivery">
+          <%= image_tag("code-icon.png", class: "icon-delivery") %>
+          <p>Développement Web</p>
+          <p class="descriptif">Ruby on Rails, HTML/CSS, JavaScript, Responsive Design</p>
         </div>
       </div>
     </div>
   </div>
+
+  <div id="portfolio" class="title text-center">
+    <h3>Portfolio</h3>
+  </div>
+
+</div>
