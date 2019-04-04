@@ -5,3 +5,31 @@
   margin: 60px auto;
   max-width: 550px;
 }
+
+.card-portfolio {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem auto;
+  background-color: white;
+  border-radius: 3px;
+  width: 750px;
+  height: 330px;
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.portfolio-img {
+  border-radius: 3px;
+  width: 750px;
+  height: 330px;
+}
+
+.card-portfolio-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h4 {
+    color: $gray;
+  }
+}
