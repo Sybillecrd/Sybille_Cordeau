@@ -13,16 +13,15 @@
 }
  h1, h3 {
    color: $gray;
-   position: relative;
  }
-hr::before {
+
+hr {
+  display: inline-block;
+  position: relative;
+  margin: 8px auto;
   width: 40px;
-  position: absolute;
-  border-bottom: 1px solid $pink;
-  transform: translateX(-50%);
-  content: '';
-  top: 9rem;
-  left: 50%;
+  font-size: 1px;
+  border-top: 1px solid $pink;
 }
 .container-home {
   display: flex;
@@ -40,7 +39,6 @@ hr::before {
   background-color: white;
   padding: 10px;
   border-radius: 3px;
-  position: relative;
 
 }
 

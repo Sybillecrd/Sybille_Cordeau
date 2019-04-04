@@ -18,9 +18,10 @@
   margin-top: 8rem;
 }
 
+
 .portfolio-img {
-  border-radius: 3px;
-  width: 750px;
+  border-radius: 3px 0 0 3px;
+  width: 290px;
   height: 330px;
 }
 
@@ -29,7 +30,11 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 2rem;
   h4 {
     color: $gray;
+  }
+  p {
+    margin: 2rem;
   }
 }
