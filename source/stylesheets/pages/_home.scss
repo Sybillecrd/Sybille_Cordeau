@@ -23,6 +23,7 @@ hr {
   font-size: 1px;
   border-top: 1px solid $pink;
 }
+
 .container-home {
   display: flex;
   align-items: center;
@@ -38,8 +39,7 @@ hr {
   margin: 10rem auto 6rem auto;
   background-color: white;
   padding: 10px;
-  border-radius: 3px;
-
+  border-radius: 10px;
 }
 
 .card-deliveries-content {
@@ -60,4 +60,25 @@ hr {
   font-weight: lighter;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+@media (min-width: 20px) and (max-width: 735px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .hero-content {
+    text-align: center;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .card-deliveries {
+    width: 340px;
+  }
+  .infos-delivery p {
+    font-size: 15px;
+  }
+  .title-delivery {
+    margin-top: 1rem;
+  }
 }

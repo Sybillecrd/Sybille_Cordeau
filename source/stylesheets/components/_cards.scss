@@ -1,6 +1,6 @@
 .card-contact {
   background-color: white;
-  border-radius: 3px;
+  border-radius: 10px;
   padding: 10px 10px 30px;
   margin: 60px auto;
   max-width: 550px;
@@ -9,20 +9,25 @@
 .card-portfolio {
   display: flex;
   flex-direction: row;
-  margin: 1rem auto;
   background-color: white;
-  border-radius: 3px;
+  border-radius: 10px;
   width: 750px;
   height: 330px;
   text-align: center;
-  margin-top: 8rem;
+  margin: 4rem auto 3rem auto;
 }
 
-
 .portfolio-img {
-  border-radius: 3px 0 0 3px;
+  border-radius: 10px 0 0 10px;
   width: 290px;
   height: 330px;
+  object-fit: cover;
+}
+.portfolio-img-2 {
+  border-radius: 0 10px 10px 0;
+  width: 290px;
+  height: 330px;
+  object-fit: cover;
 }
 
 .card-portfolio-content {
@@ -36,5 +41,25 @@
   }
   p {
     margin: 2rem;
+  }
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+@media (min-width: 20px) and (max-width: 735px) {
+  .card-portfolio {
+    display: table;
+    flex-direction: column;
+    height: 255px;
+    width: 340px;
+    margin-top: 2rem;
+  }
+  .portfolio-img {
+    width: 340px;
+    height: 255px;
+  }
+  .card-portfolio-content {
   }
 }
