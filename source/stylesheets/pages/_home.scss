@@ -72,10 +72,13 @@ hr {
   h1 {
     font-size: 30px;
   }
-  h3 {
-    font-size: 15px;
-  }
   .card-deliveries {
     width: 340px;
+  }
+  .infos-delivery p {
+    font-size: 15px;
+  }
+  .title-delivery {
+    margin-top: 1rem;
   }
 }

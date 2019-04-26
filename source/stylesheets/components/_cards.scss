@@ -14,7 +14,7 @@
   width: 750px;
   height: 330px;
   text-align: center;
-  margin: 8rem auto 3rem auto;
+  margin: 4rem auto 3rem auto;
 }
 
 .portfolio-img {
@@ -35,6 +35,10 @@
   p {
     margin: 2rem;
   }
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
 }
 
 @media (min-width: 20px) and (max-width: 735px) {
