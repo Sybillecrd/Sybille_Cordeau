@@ -23,6 +23,7 @@ hr {
   font-size: 1px;
   border-top: 1px solid $pink;
 }
+
 .container-home {
   display: flex;
   align-items: center;
@@ -39,7 +40,6 @@ hr {
   background-color: white;
   padding: 10px;
   border-radius: 3px;
-
 }
 
 .card-deliveries-content {
@@ -60,4 +60,22 @@ hr {
   font-weight: lighter;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+@media (min-width: 20px) and (max-width: 735px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .hero-content {
+    text-align: center;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  .card-deliveries {
+    width: 340px;
+  }
 }

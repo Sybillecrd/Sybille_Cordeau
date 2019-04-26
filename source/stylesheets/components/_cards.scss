@@ -9,15 +9,13 @@
 .card-portfolio {
   display: flex;
   flex-direction: row;
-  margin: 1rem auto;
   background-color: white;
   border-radius: 3px;
   width: 750px;
   height: 330px;
   text-align: center;
-  margin-top: 8rem;
+  margin: 8rem auto 3rem auto;
 }
-
 
 .portfolio-img {
   border-radius: 3px 0 0 3px;
@@ -36,5 +34,21 @@
   }
   p {
     margin: 2rem;
+  }
+}
+
+@media (min-width: 20px) and (max-width: 735px) {
+  .card-portfolio {
+    display: table;
+    flex-direction: column;
+    height: 255px;
+    width: 340px;
+    margin-top: 2rem;
+  }
+  .portfolio-img {
+    width: 340px;
+    height: 255px;
+  }
+  .card-portfolio-content {
   }
 }
