@@ -1,24 +1,35 @@
----
-title: Le Wagon - Middleman - About
----
+<div class="container">
+  <div class="row">
 
-<div id="about">
-  <div class="about-content">
-    <h1>This template was built with <i class="fas fa-heart"></i> by</h1>
-    <ul class="list-inline">
-      <% data.users.each do |user| %>
-        <li>
-          <% link_to "https://kitt.lewagon.com/alumni/#{user.github_nickname}", target: "_blank" do %>
-            <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user.github_nickname}", class: "img-circle" %>
-          <% end %>
-          <h2><%= user.name %></h2>
-          <p>
-            <% link_to "https://github.com/#{user.github_nickname}", target: "_blank" do %>
-              <i class="fab fa-github"></i> <%= user.github_nickname %>
-            <% end %>
-          </p>
-        </li>
-      <% end %>
+
+
+
+    <h3>Qui suis-je ?</h3>
+    <hr>
+
+    <p>Sybille Cordeau, Graphiste Webdesigner en freelance.
+      <br><br>
+      Après avoir étudié la mode à Paris, je suis retournée dans ma ville natale, Bordeaux,
+      pour suivre une formation de développement web et me lancer en freelance en tant
+      que Graphiste et Webdesigner.
+      <br>
+      J’ai ainsi réalisé de nombreux stages et missions dans des entreprises en pleine
+      phase de développement afin de réaliser des tâches diversifiées et d’acquérir
+      sans cesse de nouvelles compétences.
+    <br>
+    Mes champs d’action sont polyvalents : design et conception de sites web, identités visuelles,
+    logotypes, newsletters, bannières, catalogues, affiches, illustrations, et bien d'autres encore.</p>
+
+
+    <ul class="list-unstyled">
+      <p>
+        <li>Aperçu de mon parcours :</li>
+        <li>- MANAA (Mise à Niveau en Arts Appliqués) à Lim'Art, Bordeaux (2013-2014)</li>
+        <li>- Licence en Design de Mode à Créapole ESDI, Paris 1er (2014-2016)</li>
+        <li>- MBA Management Mode, Luxe et Arts de Vivre à Mod'Art International, Paris 15e (2016-2017)</li>
+        <li>- Formation Développement Web, Le Wagon Bordeaux (2018).</li>
+        <li>- Été 2018 : Installation en tant que Graphiste Webdesigner freelance.</li>
+      </p>
     </ul>
   </div>
 </div>
