@@ -1,6 +1,4 @@
 .card-contact {
-  background-color: white;
-  border-radius: 10px;
   padding: 10px 60px 50px;
   margin: 60px auto 15rem;
   p {
@@ -12,12 +10,10 @@
 }
 
 .form-control {
-
   &:focus{
     border-color: $grey-font;
     box-shadow: none;
   }
-
 }
 
 @media (min-width: 20px) and (max-width: 735px){

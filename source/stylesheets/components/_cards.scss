@@ -1,12 +1,19 @@
+.card {
+  box-shadow: 4px 6px 10px $grey-shadow;
+  background-color: white;
+  border-radius: 10px;
+}
+
 .card-portfolio {
   display: flex;
   flex-direction: row;
-  background-color: white;
-  border-radius: 10px;
   width: 750px;
   height: 330px;
   text-align: center;
   margin: 4rem auto 3rem auto;
+  &:last-child {
+    margin-bottom: 20rem;
+  }
 }
 
 .portfolio-img {
@@ -27,12 +34,13 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 2rem;
+  padding: 10px 2rem 3rem;
   h4 {
     color: $gray;
   }
   p {
     margin: 2rem;
+    font-weight: lighter;
   }
 }
 
@@ -48,10 +56,15 @@
     width: 340px;
     margin-top: 2rem;
   }
-  .portfolio-img {
+  .portfolio-img, .portfolio-img-2 {
+    border-radius: 10px 10px 0 0;
     width: 340px;
     height: 255px;
   }
-  .card-portfolio-content {
+}
+
+@media (min-width: 736px) and (max-width: 991px) {
+  .card-portfolio {
+    width: 660px;
   }
 }
