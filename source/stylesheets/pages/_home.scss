@@ -37,9 +37,7 @@ hr {
 .card-deliveries {
   width: 750px;
   margin: 10rem auto 6rem auto;
-  background-color: white;
   padding: 10px;
-  border-radius: 10px;
 }
 
 .card-deliveries-content {
@@ -80,5 +78,11 @@ hr {
   }
   .title-delivery {
     margin-top: 1rem;
+  }
+}
+
+@media (min-width: 736px) and (max-width: 991px) {
+  .card-deliveries {
+    width: 660px;
   }
 }
