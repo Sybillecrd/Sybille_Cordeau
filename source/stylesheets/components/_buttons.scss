@@ -3,3 +3,8 @@
   padding: 6px 25px;
   width: 167px;
 }
+
+.btn-danger:focus {
+  opacity: 0.8;
+  border: none;
+}
