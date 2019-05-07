@@ -63,6 +63,10 @@ hr {
 @media (min-width: 20px) and (max-width: 735px) {
   .hero {
     grid-template-columns: 1fr;
+    margin: 4rem auto 5%;
+  }
+  .hero-img {
+    width: 100%;
   }
   .hero-content {
     text-align: center;
