@@ -17,7 +17,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
-    autoprefixer-rails (9.5.1)
+    autoprefixer-rails (9.5.1.1)
       execjs
     backports (3.14.0)
     bootstrap-sass (3.4.1)
@@ -100,8 +100,6 @@ GEM
       middleman-core (>= 3.0.0)
     middleman-protect-emails (0.4.0)
       middleman-core (>= 3.4)
-    middleman-sitemap (0.0.13)
-      middleman-core (>= 3.2.2)
     middleman-sprockets (4.1.1)
       middleman-core (~> 4.0)
       sprockets (>= 3.0)
@@ -160,7 +158,6 @@ DEPENDENCIES
   middleman-google-analytics
   middleman-meta-tags
   middleman-protect-emails
-  middleman-sitemap
   middleman-sprockets
   pry-byebug
   sass (~> 3.2.10)
