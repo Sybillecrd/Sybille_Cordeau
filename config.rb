@@ -5,6 +5,7 @@ end
 activate :sprockets
 activate :meta_tags
 activate :protect_emails
+activate :directory_indexes
 
 page '/*.xml', layout: false
 page '/*.json', layout: false
