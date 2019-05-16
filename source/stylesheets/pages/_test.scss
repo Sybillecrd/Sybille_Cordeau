@@ -1,0 +1,31 @@
+.background-404 {
+  background-color: $night-blue;
+  height: 100vh;
+}
+
+.error-content {
+  margin-top: 200px;
+}
+.error-img {
+  margin-top: 60px;
+}
+
+.whops {
+  color: white;
+  font-weight: lighter;
+  margin-top: 30px;
+}
+
+@media (min-width: 20px) and (max-width: 991px) {
+  .error-img {
+    margin-top: 10px;
+    text-align: center;
+    img {
+      width: 25rem;
+    }
+  }
+  .error-content {
+    margin-top: 20px;
+    text-align: center;
+  }
+}

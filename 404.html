@@ -5,11 +5,65 @@ permalink: /404.html
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
-    <link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-  </head>
-  <body>
-    <h1>Hello</h1>
+    <link rel="stylesheet" media="(min-width: 20px) and (max-width: 991px)" href="smallscreen.css" />
+    <title>404</title>
 
+    <style>
+      .error-content {
+        margin-top: 200px;
+      }
+      .error-img {
+        margin-top: 60px;
+      }
+
+      .whops {
+        color: white;
+        font-weight: lighter;
+        margin-top: 30px;
+      }
+
+      @media (min-width: 20px) and (max-width: 991px) {
+        .error-img {
+          margin-top: 10px;
+          text-align: center;
+          img {
+            width: 25rem;
+          }
+        }
+        .error-content {
+          margin-top: 20px;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body style="background-color:#012638;">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-5 col-md-offset-2 visible-xs visible-sm">
+          <div class="error-img">
+            <img class="ghost" src="source/assets/images/ghost.png">
+          </div>
+        </div>
+        <div class="col-12 col-md-5">
+          <div class="error-content">
+            <h1 class="whops">Whooops 404 !</h1>
+            <p class="whops">Excusez-nous, la page que vous semblez chercher n'existe pas...</p>
+            <br>
+            <a href="/" class="btn btn-danger">Retour</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-5 col-md-offset-2 hidden-xs hidden-sm">
+          <div class="error-img">
+            <img class="ghost" src="source/assets/images/ghost.png">
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
