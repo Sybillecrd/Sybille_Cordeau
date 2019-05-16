@@ -22,7 +22,12 @@
   }
 }
 
-.footer-copyright {
+.footer-copyright, .footer-copyright-c {
   color: white;
   font-weight: lighter;
+}
+
+.footer-copyright-c {
+  font-size: 12px;
+
 }
