@@ -23,6 +23,7 @@ GEM
     bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
       sassc (>= 2.0.0)
+    builder (3.2.3)
     byebug (11.0.1)
     coderay (1.1.2)
     coffee-script (2.4.1)
@@ -100,6 +101,9 @@ GEM
       middleman-core (>= 3.0.0)
     middleman-protect-emails (0.4.0)
       middleman-core (>= 3.4)
+    middleman-search_engine_sitemap (1.4.0)
+      builder
+      middleman-core (~> 4.0)
     middleman-sprockets (4.1.1)
       middleman-core (~> 4.0)
       sprockets (>= 3.0)
@@ -158,6 +162,7 @@ DEPENDENCIES
   middleman-google-analytics
   middleman-meta-tags
   middleman-protect-emails
+  middleman-search_engine_sitemap
   middleman-sprockets
   pry-byebug
   sass (~> 3.2.10)
