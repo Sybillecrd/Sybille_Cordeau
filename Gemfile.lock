@@ -153,6 +153,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass
+  builder
   font-awesome-middleman
   font-awesome-sass
   jquery-middleman
