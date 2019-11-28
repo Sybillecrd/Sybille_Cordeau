@@ -6,9 +6,9 @@
 
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
-    <a href="../index.html#portfolio" class="navbar-wagon-item navbar-wagon-link">Portfolio</a>
-    <a href="about" class="navbar-wagon-item navbar-wagon-link">À propos</a>
-    <a href="contact" class="navbar-wagon-item navbar-wagon-link">Contact</a>
+    <%= link_to 'Portfolio', 'index.html#portfolio', class: 'navbar-wagon-item navbar-wagon-link' %>
+    <%= link_to 'À propos', '/about.html', class: 'navbar-wagon-item navbar-wagon-link' %>
+    <%= link_to 'Contact', '/contact.html', class: 'navbar-wagon-item navbar-wagon-link' %>
   </div>
 
   <!-- Dropdown appearing on mobile only -->
@@ -16,9 +16,9 @@
     <div class="dropdown">
       <i class="fa fa-bars fa-2x dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><a href="../index.html#portfolio">Portfolio</a></li>
-        <li><a href="about">À propos</a></li>
-        <li><a href="contact">Contact</a></li>
+        <li><%= link_to 'Portfolio', 'index.html#portfolio', class: 'navbar-wagon-item navbar-wagon-link' %></li>
+        <li><%= link_to 'À propos', '/about.html', class: 'navbar-wagon-item navbar-wagon-link' %></li>
+        <li><%= link_to 'Contact', '/contact.html', class: 'navbar-wagon-item navbar-wagon-link' %></li>
       </ul>
     </div>
   </div>
